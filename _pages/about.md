@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm currently an undergraduate at the University of Washington, working towards a degree in Computer Science. My research interests are broadly in **health**, at the intersections of NLP, HCI, and ubiquitous computing. I have been fortunate to have been advised by Dr. Shwetak Patel in the Ubiquitous Computing Laboratory, building wearable sensor systems to enable health improvements and developing new deep learning methods to aid these improvements, and with Dr. Noah Smith in Noah's ARK, working on multitask transfer learning and also developing new ways to debias state-of-the-art clinical models for summarization. This fall, I will be applying to PhD programs in computer science.
+I'm currently an undergraduate at the University of Washington, working towards a degree in computer science. My research interests are broadly in **health**, at the intersections of NLP, HCI, and ubiquitous computing. I have been fortunate to have been advised by Dr. Shwetak Patel in the Ubiquitous Computing Laboratory, building novel wearable sensor systems to enable improvements in health and developing new deep learning methods to aid these improvements, and with Dr. Noah Smith in Noah's ARK, working on multitask transfer learning with T5 and developing new ways to debias state-of-the-art clinical models for summarization. This fall, I will be applying to PhD programs in computer science.
 
 # **News**
 **April 2020:** Our [paper](https://ieeexplore.ieee.org/document/9176700) was accepted into [EMBC 2020](https://embc.embs.org/2020/)!
