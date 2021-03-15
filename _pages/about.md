@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I recently graduated from the University of Washington with my bachelor's in computer science. My research interests are at the intersections of NLP and HCI, or more specifically applied to healthcare. I have previously worked with [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/) on building ubiquitous computing sensing tools for healthcare, and [Noah Smith](https://homes.cs.washington.edu/~nasmith/) on neural model interpretability and applying NLP to healthcare.
+I recently graduated from the University of Washington with my bachelor's in computer science. My research interests are at the intersections of NLP and HCI, or more specifically applied to healthcare. In my undergrad, I was advised by [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/) on building ubiquitous computing sensing tools for healthcare, and by [Noah Smith](https://homes.cs.washington.edu/~nasmith/) on neural model interpretability and applying NLP to healthcare.
 
 # **News**
 **March 2021:** I just graduated from the University of Washington with my bachelor's in computer science!
