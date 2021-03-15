@@ -7,9 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm currently an undergraduate at the University of Washington, working towards a degree in computer science. My research interests are broadly in **health**, at the intersections of NLP, HCI, and ubiquitous computing. I have been fortunate to have been advised by Dr. Shwetak Patel in the Ubiquitous Computing Laboratory, building novel wearable sensor systems to enable improvements in health and developing new deep learning methods to aid these improvements, and with Dr. Noah Smith in Noah's ARK, working on probing with T5 and developing new ways to debias state-of-the-art clinical models for summarization. This fall, I will be applying to PhD programs in computer science.
+I recently graduated from the University of Washington with my bachelor's in computer science. My research interests are at the intersections of NLP and HCI, or more specifically applied to healthcare. I have previously worked with [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/) on building ubiquitous computing sensing tools for healthcare, and [Noah Smith](https://homes.cs.washington.edu/~nasmith/) on neural model interpretability and applying NLP to healthcare.
 
 # **News**
+**March 2021:** I just graduated from the University of Washington with my bachelor's in computer science!
+**March 2021:** I'll be interning at Microsoft Research this summer on the BioNLP team, working with [Tristan Naumann](https://www.microsoft.com/en-us/research/people/tristan/) on research at the intersection of NLP and healthcare!
 **October 2020:** I was awarded the Washington Research Foundation Fellowship from the Washington Research Foundation.
 <br/>
 **April 2020:** Our [paper](https://ieeexplore.ieee.org/document/9176700) was accepted into [EMBC 2020](https://embc.embs.org/2020/)!
