@@ -10,6 +10,8 @@ redirect_from:
 I recently graduated from the University of Washington with my bachelor's in computer science. My research interests are at the intersections of NLP and HCI, or more specifically applied to healthcare. In my undergrad, I was advised by [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/) on building ubiquitous computing sensing tools for healthcare, and by [Noah Smith](https://homes.cs.washington.edu/~nasmith/) on neural model interpretability and applying NLP to healthcare.
 
 # **News**
+**March 2021:** I was awarded an Honorable Mention for the NSF Graduate Research Fellowship.
+<br/>
 **March 2021:** I just graduated from the University of Washington with my bachelor's in computer science!
 <br/>
 **March 2021:** I'll be interning at Microsoft Research this summer on the BioNLP team, working with [Tristan Naumann](https://www.microsoft.com/en-us/research/people/tristan/) on research at the intersection of NLP and healthcare!
