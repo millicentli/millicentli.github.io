@@ -16,8 +16,4 @@ I recently graduated from the University of Washington with my bachelor's in com
 <br/>
 **March 2021:** I'll be interning at Microsoft Research this summer on the BioNLP team, working with [Tristan Naumann](https://www.microsoft.com/en-us/research/people/tristan/) on research at the intersection of NLP and healthcare!
 <br/>
-**October 2020:** I was awarded the Washington Research Foundation Fellowship from the Washington Research Foundation.
-<br/>
 **April 2020:** Our [paper](https://ieeexplore.ieee.org/document/9176700) was accepted into [EMBC 2020](https://embc.embs.org/2020/)!
-<br/>
-**March 2020:** I was awarded the Mary Gates Research Scholarship from the Mary Gates Endowment for Students.
