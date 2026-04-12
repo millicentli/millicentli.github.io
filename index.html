@@ -60,7 +60,9 @@
 		    	</div>
 		    </div>
 		    <div class="col">
-		    	<p>I'm a PhD student at <a href="https://www.northeastern.edu/">Northeastern University</a> where I'm advised by <a href="http://www.byronwallace.com/">Byron Wallace</a>. Broadly, I'm interested in investigating language model behaviors. More specifically, language models can precisely generalize on unseen data or pick up on behaviors even though we don't explicitly teach them these behaviors. Where do these abilities come from, and why are models predisposed to pick up on these cues? To this end, I use various tools, in training dynamics and interpretability, to measure and reason about how these behaviors arise. I'm grateful to be supported by a Khoury PhD Fellowship and the <a href="https://www.nsfgrfp.org/">NSF GRFP</a>.</p>
+		    	<p>I'm a PhD student at <a href="https://www.northeastern.edu/">Northeastern University</a> where I'm advised by <a href="http://www.byronwallace.com/">Byron Wallace</a>. I've been mostly thinking about evaluations in intepretability, namely whether current evaluations measure what we actually care to measure and how this translates into practical use cases of interpretability (such as for auto-interpretability tools, like verbalization, probing, etc.). I also have broad interests in the science of training LMs, e.g. understanding their training dynamics when training them with synthetic data. I'm grateful to be supported by a Khoury PhD Fellowship and the <a href="https://www.nsfgrfp.org/">NSF GRFP</a>.</p>
+
+		    	<!-- Broadly, I'm interested in investigating language model behaviors. More specifically, language models can precisely generalize on unseen data or pick up on behaviors even though we don't explicitly teach them these behaviors. Where do these abilities come from, and why are models predisposed to pick up on these cues? To this end, I use various tools, in training dynamics and interpretability, to measure and reason about how these behaviors arise.  -->
 
 				<p>Before my PhD, I spent time at <a href="https://ai.facebook.com/research/">FAIR/Meta AI</a> as an AI Resident, working with <a href="https://ai.meta.com/people/711449320883014/marjan-ghazvininejad/">Marjan Ghazvininejad</a> and <a href="https://ai.meta.com/people/209431298931133/mike-lewis/">Mike Lewis</a>, and at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>, working with <a href="https://www.microsoft.com/en-us/research/people/tristan/">Tristan Naumann</a>. And even before this, I was an undergrad at the <a href="https://www.washington.edu/">University of Washington</a> working with <a href="https://homes.cs.washington.edu/~shwetak/">Shwetak Patel</a> on ubiquitous computing and <a href="https://homes.cs.washington.edu/~nasmith/">Noah Smith</a> on natural language processing.</p>
 
@@ -91,7 +93,17 @@
 		  		<h2 class="news">News</h2>
 		  	</div>
 		  </div>
-<!-- Newest category -->
+		<!-- Newest category -->
+  		  <div class="row mx-auto">
+		  	<div class="col col-lg-2 yr">
+		  		April 2026
+		  	</div>
+		  	<div class="col">
+		  		<p>
+		  			New preprint on understanding how capabilities of language models emerge during pre-training, <a href="https://arxiv.org/abs/2604.08510">What do Language Models Learn and When? The Implicit Curriculum Hypothesis</a>, led by <a href="https://nightingal3.github.io/">Emmy Liu</a>!
+		  		</p>
+		  	</div>
+		  </div>
   		  <div class="row mx-auto">
 		  	<div class="col col-lg-2 yr">
 		  		October 2025
@@ -246,6 +258,38 @@
 	  	<div class="col">
 	  		<h2 class="pubs">Publications</h2>
 	  	</div>
+	  	<div class="publications row mb-3 mx-auto">
+		  	<div class="col">
+		  		<h3 class="year"><b>2026</b></h3>
+		  		<ol class="bibliography2026">
+		  			<li>
+		  				<div class="row">
+		  					<div class="inner_row" style="margin-bottom: 30px;">
+	  							<div id="elemental-tasks">
+			  						<div class="title">What do Language Models Learn and When? The Implicit Curriculum Hypothesis</div>
+			  						<div class="author">Emmy Liu, Kaiser Sun, <b>Millicent Li</b>, Isabelle Lee, Lindia Tjuatja, Jen-tse Huang, Graham Neubig</div>
+			  						<div class="periodical">
+			  							<em> arXiv, 2026</em>
+			  						</div>
+			  						<div class="links">
+										<button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">
+											Abstract
+										</button>
+										<a class="btn btn-outline-dark" href="https://arxiv.org/abs/2604.08510" role="button">HTML</a>
+										<div class="collapse" id="collapseExample8">
+											<div class="card card-body">
+												Large language models (LLMs) can perform remarkably complex tasks, yet the fine-grained details of how these capabilities emerge during pretraining remain poorly understood. Scaling laws on validation loss tell us how much a model improves with additional compute, but not what skills it acquires in which order. To remedy this, we propose the Implicit Curriculum Hypothesis: pretraining follows a compositional and predictable curriculum across models and data mixtures. We test this by designing a suite of simple, composable tasks spanning retrieval, morphological transformations, coreference, logical reasoning, and mathematics. Using these tasks, we track emergence points across four model families spanning sizes from 410M-13B parameters. We find that emergence orderings of when models reach fixed accuracy thresholds are strikingly consistent (ρ=.81 across 45 model pairs), and that composite tasks most often emerge after their component tasks. Furthermore, we find that this structure is encoded in model representations: tasks with similar function vector representations also tend to follow similar trajectories in training. By using the space of representations derived from our task set, we can effectively predict the training trajectories of simple held-out compositional tasks throughout the course of pretraining (R2=.68-.84 across models) without previously evaluating them. Together, these results suggest that pretraining is more structured than loss curves reveal: skills emerge in a compositional order that is consistent across models and readable from their internals.
+											</div>
+										</div>
+			  						</div>
+			  					</div>
+			  				</div>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</div>
+		  </div>
+
 		  <div class="publications row mb-3 mx-auto">
 		  	<div class="col">
 		  		<h3 class="year"><b>2025</b></h3>
@@ -467,5 +511,5 @@
 	</body>
 
 	<footer>
-	    <p class="copyright">© 2024 Millicent Li. Last updated on 2026-03-17. </p>
+	    <p class="copyright">© 2024 Millicent Li. Last updated on 2026-04-12. </p>
 	</footer>
