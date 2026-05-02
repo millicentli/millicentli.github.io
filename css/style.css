@@ -32,6 +32,7 @@ a {
 
 .name {
 	font-weight: 300;
+	margin-bottom: 0.4rem;
 }
 
 .yr {
@@ -42,12 +43,17 @@ a {
 	font-weight: 200;
 }
 
-.extras {
-    position: absolute;
+.icons {
+	text-align: center;
 }
 
-.icon {
-	position: relative;
+.icons a {
+    margin-right: 5px;
+    color: inherit;
+}
+
+.icons a:hover {
+    color: #0096FF;
 }
 
 .title {
@@ -58,8 +64,8 @@ a {
     margin-top: 20px;
 }
 
-.envelope {
-    vertical-align: text-top;
+.col-lg-3 img {
+    display: block;
 }
 
 .txtimg {
@@ -107,4 +113,29 @@ p.copyright {
     font-size: 0.7em;
     text-align: center;
     bottom:0;
+}
+
+/* news collapse toggle */
+.news-collapsed {
+    display: none;
+}
+
+.news-toggle-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: 0.85em;
+    color: #696969;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.news-toggle-btn:hover {
+    text-decoration: underline;
+}
+
+/* tighter bio paragraph spacing */
+.bio-p {
+    margin-bottom: 0.6rem;
 }
