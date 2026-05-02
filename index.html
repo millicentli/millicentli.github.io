@@ -477,15 +477,19 @@
 	</footer>
 
 	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+	    document.getElementById('olderNews').style.display = 'none';
+	});
+
 	function toggleNews() {
 	    var el = document.getElementById('olderNews');
 	    var btn = document.getElementById('newsToggle');
-	    if (el.style.display === 'block' || el.style.display === '') {
-	        el.style.display = 'none';
-	        btn.textContent = 'Show older news ▾';
-	    } else {
+	    if (el.style.display === 'none') {
 	        el.style.display = 'block';
 	        btn.textContent = 'Hide older news ▴';
+	    } else {
+	        el.style.display = 'none';
+	        btn.textContent = 'Show older news ▾';
 	    }
 	}
 	</script>
