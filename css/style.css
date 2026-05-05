@@ -1,28 +1,25 @@
-
-Copy
-
 /* body and others */
 body {
     font-family: 'Open Sans', sans-serif;
 }
- 
+
 p {
   text-align: justify;
   text-justify: inter-word;
 }
- 
+
 h1, h2, h3 {
     font-family: 'Nunito Sans', sans-serif !important;
 }
- 
+
 ol li {
   list-style-type: none;
 }
- 
+
 a {
     color: #0096FF;
 }
- 
+
 .btn {
     margin-top: 5px;
     margin-right: 2px;
@@ -32,67 +29,67 @@ a {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
 }
- 
+
 .name {
     font-weight: 300;
     margin-bottom: 0.4rem;
 }
- 
+
 .yr {
     color: #696969;
 }
- 
+
 .news, .pubs, .misc, .year {
     font-weight: 200;
 }
- 
+
 .icons {
     text-align: center;
 }
- 
+
 .icons a {
     margin-right: 5px;
     color: inherit;
 }
- 
+
 .icons a:hover {
     color: #0096FF;
 }
- 
+
 .title {
     font-weight: bolder;
 }
- 
+
 .card {
     margin-top: 20px;
 }
- 
+
 .col-lg-3 img {
     display: block;
 }
- 
+
 .txtimg {
     display: inline-block;
     text-align: left;
     margin-bottom: 20px;
 }
- 
+
 .txtimg > photo {
     display: block;
 }
- 
+
 .photo {
     width: 50%;
 }
- 
+
 .text {
     position: relative;
 }
- 
+
 a:hover {
     text-decoration: none;
 }
- 
+
 /* footer */
 footer {
     display: block;
@@ -107,7 +104,7 @@ footer {
     -o-user-select: none;
     user-select: none;
 }
- 
+
 p.copyright {
     position: absolute;
     width: 100%;
@@ -117,12 +114,12 @@ p.copyright {
     text-align: center;
     bottom:0;
 }
- 
+
 /* news collapse toggle */
 .news-collapsed {
     display: none;
 }
- 
+
 .news-toggle-btn {
     background: none !important;
     border: none !important;
@@ -135,42 +132,45 @@ p.copyright {
     cursor: pointer;
     margin-bottom: 1rem;
 }
- 
+
 .news-toggle-btn:hover {
     text-decoration: underline;
 }
- 
+
 /* tighter bio paragraph spacing */
 .bio-p {
     margin-bottom: 0.6rem;
 }
- 
+
 /* photography grid */
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 24px;
     margin: 1.5rem 0;
 }
- 
+
 .photo-item {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    min-width: 0;
 }
- 
+
 .photo-img {
     width: 100%;
     height: auto;
+    max-width: 100%;
     border-radius: 4px;
+    display: block;
 }
- 
+
 .photo-location {
     font-size: 13px;
     font-weight: 600;
     color: #333;
 }
- 
+
 .photo-date {
     font-size: 12px;
     color: #696969;
